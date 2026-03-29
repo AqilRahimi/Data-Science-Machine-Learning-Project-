@@ -24,7 +24,7 @@ st.markdown("Welcome to the AI-powered smartphone analysis dashboard. Explore da
 @st.cache_data
 def load_and_train():
     # Load dataset (Make sure the CSV is in the same folder as this script)
-    df = pd.read_csv("C:/Users/aqilr/Downloads/DS Project/processed_data2.csv")
+    df = pd.read_csv("https://github.com/AqilRahimi/Data-Science-Machine-Learning-Project-/edit/main/DS_Project/app.py")
     
     # --- Prediction Prep ---
     pred_features_num = ['storage', 'ram', 'weight', 'display_size', 'battery']
